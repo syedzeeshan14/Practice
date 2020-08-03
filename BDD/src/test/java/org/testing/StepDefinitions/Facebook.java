@@ -21,7 +21,7 @@ public class Facebook {
 	public void I_enter_valid_username_and_vaid_password() throws Throwable {
 	    WebElement email = driver.findElement(By.name("email"));
 	    email.click();
-	    Thread.sleep(2000);
+	    Thread.sleep(5000);
 	    //email.sendKeys("zeeshanhsn14@gmail.com);
 	}
 	@When("^User enter username \"([^\"]*)\" and password \"([^\"]*)\"$")
